@@ -1,5 +1,5 @@
 body{
-    background-color:bisque;
+    background-color:rgb(240, 226, 208);
 }
 .header{
     display:flex;
@@ -32,4 +32,12 @@ body{
     padding-left: 70px;
     font-style: bold;
     font-weight: 600;
+}
+.jumbo_flex{
+    display: flex;
+    flex:1;
+}
+.jumbo_flex>img{
+    width:100%;
+    height:100%;
 }
